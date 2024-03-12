@@ -11,4 +11,5 @@ This gives an introduction to programming with python
 |5-print_string.py |prints 3 times a string stored in the variable `str`, followed by its first 9 characters|
 |6-concat.py |prints `Welcome to Holberton School!`|
 |7-edges.py |slices the variable `word` |
+|8-concat_edges.py |to print `object-oriented programming with Python`, followed by a new line|
 
