@@ -12,4 +12,5 @@ This gives an introduction to programming with python
 |6-concat.py |prints `Welcome to Holberton School!`|
 |7-edges.py |slices the variable `word` |
 |8-concat_edges.py |to print `object-oriented programming with Python`, followed by a new line|
+|9-easter_egg.py |prints “The Zen of Python”, by TimPeters, followed by a new line|
 
