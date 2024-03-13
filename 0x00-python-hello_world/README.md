@@ -16,7 +16,7 @@ This gives an introduction to programming with python
 |10-check_cycle.c, lists.h |a C function that checks if a singly linked list has a cycle in it|
 |100-write.py |prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line|
 |101-compile |a script that compiles a Python script file|
-- 102-magic_calculation.py does exactly the same as the following Python bytecode:
+- 102-magic_calculation.py does exactly the same as the following [Python bytecode](https://docs.python.org/3.4/library/dis.html):
 
 ```
   3           0 LOAD_CONST               1 (98)
