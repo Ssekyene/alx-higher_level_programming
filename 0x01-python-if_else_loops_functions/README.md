@@ -1,1 +1,10 @@
-This demonstrates use of loops and conditional statements in python
+# Python - if/else, loops, functions
+|File					|Description					|
+|-----------------------------|-----------------------------------------|
+|0-positive_or_negative.py    |prints whether a random number in `number` variable is positive, zero or negative|
+|1-last_digit.py			|checks for the last digit of a random number |
+|2-print_alphabet.py		|prints the ASCII alphabet, in lowercase, not followed by a new line |
+|3-print_alphabt.py		|prints the ASCII alphabet, in lowercase, not followed by a new line except `q` and `e`|
+|4-print_hexa.py			|prints all numbers from `0` to `98` in decimal and in hexadecimal |
+|5-print_comb2.py			|prints numbers from `0` to `99` |
+
