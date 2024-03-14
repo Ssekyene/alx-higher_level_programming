@@ -13,4 +13,7 @@
 |9-print_last_digit.py		|a function that prints the last digit of a number	|
 |10-add.py				|a function that adds two integers and returns the result |
 |11-pow.py				|a function that computes `a` to the power of `b` and return the value |
+|12-fizzbuzz.py			|a function that prints the numbers from 1 to 100 separated by a space |
+|13-insert_number.c, lists.h	|a function in C that inserts a number into a sorted singly linked list|
+|100-print_tebahpla.py		| prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line|
 
