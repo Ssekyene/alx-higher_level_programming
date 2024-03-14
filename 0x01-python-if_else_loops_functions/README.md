@@ -9,4 +9,7 @@
 |5-print_comb2.py			|prints numbers from `0` to `99` |
 |6-print_comb3.py			|prints all possible different combinations of two digits |
 |7-islower.py			|checks for lowercase character		|
+|8-uppercase.py			|prints a string in uppercase followed by a new line 	|
+|9-print_last_digit.py		|a function that prints the last digit of a number	|
+|10-add.py				|a function that adds two integers and returns the result |
 
