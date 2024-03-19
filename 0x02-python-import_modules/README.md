@@ -8,3 +8,5 @@
 |4-hidden_discovery.py| prints all the names defined by the compiled module [hidden_4.pyc](./hidden_4.pyc) except those that start with ``__``|
 |5-variable_load.py | imports the variable `a` from the file `variable_load_5.py` and prints its value	|
 |100-my_calculator.py | imports all functions from the file [calculator_1.py](./calculator_1.py) and handles basic operations. - **Usage:** `./100-my_calculator.py a operator b`. `operator` can be: `+`, `-`, `*` or `/`     |
+|101-easy_print.py |prints `#pythoniscool`, followed by a new line, in the standard output |
+
