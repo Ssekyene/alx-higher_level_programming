@@ -15,4 +15,4 @@
 |11-delete_at.py		| a function that deletes the item at a specific position in a list	|
 |12-switch.py		| switchs value of `a` and `b`	|
 |13-is_palindrome.c, lists.h | a function in C that checks if a singly linked list is a palindrome |
-
+|100-print_python_list_info.c, 100-test_lists.py | a C function that prints some basic info about Python lists. The shared library is compiled with: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c`, OS: `Ubuntu 14.04 LTS`, test script can be executed by simply `./100-test_lists.py` or python3 `100-test_lists.py` |
