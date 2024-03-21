@@ -11,7 +11,7 @@ def roman_to_int(roman_string):
             while f_digit > 9:
                 f_digit /= 10
             if (f_digit % 4) == 0 or (f_digit % 9) == 0:
-                num = (num - numbers.get(roman_string[i - 1])) + res 
+                num = (num - numbers.get(roman_string[i - 1])) + res
             else:
                 return 0
         else:
