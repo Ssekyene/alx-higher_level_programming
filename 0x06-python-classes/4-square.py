@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 4-square.py by Hasaan Ahmad
+# 4-square.py by Robert Ssekyene
 """defines a square"""
 
 
@@ -15,12 +15,13 @@ class Square:
         :raises TypeError: If size is not an integer.
         :raises ValueError: If size is less than 0.
         """
-
-        if type(size) != int:
-            raise TypeError('size must be an integer')
-        if size < 0:
-            raise ValueError('size must be >= 0')
-        self.__size = size
+        if type(value) != int or size < 0:
+            if type(size) != int:
+                raise TypeError('size must be an integer')
+            else:
+                raise ValueError('size must be >= 0')
+        else:
+            self.__size = size
 
     @property
     def size(self):
@@ -37,12 +38,14 @@ class Square:
         :raises TypeError: If value is not an integer.
         :raises ValueError: If value is less than 0.
         """
-
-        if type(value) != int:
-            raise TypeError('size must be an integer')
-        if value < 0:
-            raise ValueError('size must be >= 0')
-        self.__size = value
+        
+        if type(value) != int or value < 0:
+            if type(value) != int:
+                raise TypeError('size must be an integer')
+            else:
+                raise ValueError('size must be >= 0')
+         else:
+            self.__size = value
 
     def area(self):
         """
