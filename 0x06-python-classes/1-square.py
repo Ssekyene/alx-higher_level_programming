@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 1-square.py by Hasaan Ahmad
+# 1-square.py by Robert Ssekyene
 """defines a square"""
 
 
