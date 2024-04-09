@@ -7,4 +7,5 @@
 |3-square.py		|a class `Square` that defines a square and clculates its area	|
 |4-square.py		|a class `Square` that defines a square, sets and retrieves `size` which is a private field	|
 |5-square.py		|a class `Square` that defines a square and prints in stdout the square with the character `#`	|
+|6-square.py		| a class `Square` that defines a square with its `size` and `position`		|
 

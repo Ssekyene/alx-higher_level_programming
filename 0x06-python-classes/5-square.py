@@ -16,13 +16,11 @@ class Square:
         :raises ValueError: If size is less than 0.
         """
         
-        if type(size) != int or size < 0:
-            if type(size) != int:
-                raise TypeError('size must be an integer')
-            else:
-                raise ValueError('size must be >= 0')
-        else:
-            self.__size = size
+        if type(size) != int:
+            raise TypeError('size must be an integer')
+        if size < 0:
+            raise ValueError('size must be >= 0')
+        self.__size = size
 
     @property
     def size(self):
@@ -40,13 +38,11 @@ class Square:
         :raises ValueError: If value is less than 0.
         """
         
-        if type(value) != int or value < 0:
-            if type(value) != int:
-                raise TypeError('size must be an integer')
-            else:
-                raise ValueError('size must be >= 0')
-        else:
-            self.__size = value
+        if type(value) != int:
+            raise TypeError('size must be an integer')
+        if value < 0:
+            raise ValueError('size must be >= 0')
+        self.__size = value
 
     def area(self):
         """

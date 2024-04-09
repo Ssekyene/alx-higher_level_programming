@@ -18,10 +18,7 @@ class Square:
 
         self.size = size
         self.position = position
-
-    def __str__(self):
-        self.my_print()
-
+    
     @property
     def size(self):
         """Retrieves size of square"""
@@ -37,7 +34,7 @@ class Square:
         :raises TypeError: If value is not an integer.
         :raises ValueError: If value is less than 0.
         """
-
+        
         if type(value) != int:
             raise TypeError('size must be an integer')
         if value < 0:
