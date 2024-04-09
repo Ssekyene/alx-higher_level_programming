@@ -14,7 +14,7 @@ class Square:
         :type size: int
         """
         if type(size) != int or size < 0:
-            if type(size) != int:
+            if type(size) is not int:
                 raise TypeError('size must be an integer')
             else:
                 raise ValueError('size must be >= 0')
