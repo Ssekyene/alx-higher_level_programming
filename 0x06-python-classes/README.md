@@ -65,3 +65,4 @@ Disassembly of circumference:
              16 BINARY_MULTIPLY
              17 RETURN_VALUE
 ```
+**Note:** The main.py files are for testing the respective module files they import eg `./2-main.py` tests `2-square.py`.
