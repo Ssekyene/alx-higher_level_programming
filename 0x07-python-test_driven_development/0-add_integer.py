@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Integers addition"""
+"""Integers addition
+   
+   Description: The module contains only one function
+"""
 
 
 def add_integer(a, b=98):
