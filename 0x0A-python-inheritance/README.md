@@ -13,5 +13,6 @@
 |8-rectangle.py		|a class `Rectangle` that inherits from `BaseGeometry` (`7-base_geometry.py`) with instantiation of `width` and `height`: `def __init__(self, width, height):` |
 |9-rectangle.py		|a class Rectangle that inherits from BaseGeometry (7-base_geometry.py) with `area()` and `__str()__` methods implemented	|
 |10-square.py		|a class `Square` that inherits from `Rectangle` (`9-rectangle.py`) with instantiation of  `size`: `def __init__(self, size):` |
-|11-square.py		| a class `Square` that inherits from `Rectangle` (`9-rectangle.py`) with `__str()__` implemented	|
-
+|11-square.py		|a class `Square` that inherits from `Rectangle` (`9-rectangle.py`) with `__str()__` implemented	|
+|100-my_int.py		|a class `MyInt` that inherits from `int`. `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted |
+|101-add_attribute.py	|a function that adds a new attribute to an object if it’s possible	|
