@@ -9,4 +9,9 @@
 |4-inherits_from.py	|a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`. In simple terms returns `True` when the object is only a sub class of the specified class |
 |5-base_geometry.py	|an empty class `BaseGeometry`	|
 |6-base_geometry.py	|a class `BaseGeometry` with instance method: `def area(self):`	|
+|7-base_geometry.py, tests/7-base_geometry.txt|a class `BaseGeometry` with `def integer_validator(self, name, value):` that validates `value` |
+|8-rectangle.py		|a class `Rectangle` that inherits from `BaseGeometry` (`7-base_geometry.py`) with instantiation of `width` and `height`: `def __init__(self, width, height):` |
+|9-rectangle.py		|a class Rectangle that inherits from BaseGeometry (7-base_geometry.py) with `area()` and `__str()__` methods implemented	|
+|10-square.py		|a class `Square` that inherits from `Rectangle` (`9-rectangle.py`) with instantiation of  `size`: `def __init__(self, size):` |
+|11-square.py		| a class `Square` that inherits from `Rectangle` (`9-rectangle.py`) with `__str()__` implemented	|
 

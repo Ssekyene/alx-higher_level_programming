@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+import sys
+
+# including parent directory in Python path
+sys.path.append("..")
+
 lookup = __import__('0-lookup').lookup
 
 class MyClass1(object):
