@@ -12,3 +12,5 @@
 |8-class_to_json.py	|a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object|
 |9-student.py		|a class `Student` that defines a student 	|
 |10-student.py		|a class `Student` that defines a student and filters the attributes that can be serialized to json|
+|11-student.py		|a class `Student` that defines a student with public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance |
+|12-pascal_triangle.py	|a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of `n` |
