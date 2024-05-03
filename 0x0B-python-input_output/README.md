@@ -15,4 +15,4 @@
 |11-student.py		|a class `Student` that defines a student with public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance |
 |12-pascal_triangle.py	|a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of `n` |
 |100-append_after.py	|a function that inserts a line of text to a file, after each line containing a specific string	|
-|101-stats.py, 101-generator.py|a script that reads stdin line by line and computes metrics. `101-generator.py` script writes multiple lines to stdout in the format `<IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>` that will be the input for `101-stats.py` when run ie: **$** `./101-generator.py` `|` `./101-stats.py` |
+|101-stats.py, 101-generator.py|a script that reads stdin line by line and computes metrics. `101-generator.py` script writes multiple lines to stdout in the format `<IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>` that will be the input for `101-stats.py` when run ie: **$** `./101-generator.py \| ./101-stats.py` |
