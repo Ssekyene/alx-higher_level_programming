@@ -1,5 +1,5 @@
 # 0x0D. SQL - Introduction
-To start mysql server and run scripts, you may follow the exxample below:
+To start mysql server and run scripts, you may follow the example below:
 
 ```
 $ service mysql start
@@ -26,4 +26,5 @@ $
 |7-insert_value.sql		|a script that inserts a new row in the table `first_table` (database `hbtn_0c_0`) in your MySQL server. The database name will be passed as an argument of the `mysql` command|
 |8-count_89.sql			|a script that displays the number of records with `id = 89` in the table `first_table` of the database `hbtn_0c_0` in your MySQL server |
 |9-full_creation.sql		|a script that creates a table `second_table` in the database `hbtn_0c_0` in your MySQL server and add multiples rows. The database name will be passed as an argument to the `mysql` command |
+|10-top_score.sql			|a script that lists all records of the table `second_table` of the database `hbtn_0c_0` in your MySQL server with results having both the score and the name (in this order) and ordered by score (top first). The database name will be passed as an argument of the `mysql` command |
 
