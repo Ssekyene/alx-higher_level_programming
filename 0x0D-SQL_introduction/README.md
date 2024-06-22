@@ -34,4 +34,6 @@ $
 |15-groups.sql			|a script that lists the number of records with the same score in the table `second_table` of the database `hbtn_0c_0` in your MySQL server with the results displaying the `score` and the number of records for this `score` with the label `number` sorted by the number of records (descending). The database name will be passed as an argument to the `mysql` command |
 |16-no_link.sql			|a script that lists all records of the table `second_table` of the database `hbtn_0c_0` in your MySQL server but not listing rows without a `name` value, results displaying the score and the name (in this order) and records listed by descending score. The database name will be passed as an argument to the `mysql` command |
 |100-move_to_utf8.sql		|a script that converts `hbtn_0c_0` database to UTF8 (`utf8mb4`, collate `utf8mb4_unicode_ci`) in your MySQL server plus the table `first_table` in `hbtn_0c_0` database and the field `name` in the table|
-
+|101-avg_temperatures.sql, temperatures.sql| a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending). Import `temparatures.sql` into `hbtn_0c_0` database|
+|102-top_city.sql	|a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending). run `cat 102-top_city.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`|
+|103-max_state.sql	| a script that displays the max temperature of each state (ordered by State name)|
