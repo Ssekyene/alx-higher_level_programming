@@ -13,6 +13,8 @@ performance_schema
 sys
 $
 ```
+### Precaution
+Make sure you maintain a chronological follow up of the files to have a clear understanding and a nice😀 learning frame work for the SQL code inside them, as most of the files depend on the preceding ones.
 
 |File					|Description						|
 |-----------------------------|-----------------------------------------------|
