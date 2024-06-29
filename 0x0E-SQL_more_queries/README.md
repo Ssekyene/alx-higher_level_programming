@@ -26,4 +26,7 @@
 |11-genre_id_all_shows.sql|a script that lists all shows contained in the database `hbtn_0d_tvshows` including those with `NULL` in `tv_shows.title`. The database name will be passed as an argument of the `mysql` command|
 |12-no_genre.sql		|a script that lists all shows contained in `hbtn_0d_tvshows` without a genre linked. The database name will be passed as an argument of the `mysql` command. ie `cat 12-no_genre.sql \| mysql -hlocalhost -uroot -p hbtn_0d_tvshows` |
 |13-count_shows_by_genre.sql|a script that lists all genres from `hbtn_0d_tvshows` and displays the number of shows linked to each. The database name will be passed as an argument of the `mysql` command|
+|14-my_genres.sql		|a script that uses the `hbtn_0d_tvshows` database to lists all genres of the show `Dexter`. The database name will be passed as an argument of the `mysql` command	|
+|15-comedy_only.sql	|a script that lists all Comedy shows in the database `hbtn_0d_tvshows`. The database name will be passed as an argument of the `mysql` command	|
+|16-shows_by_genre.sql	|a script that lists all shows, and all genres linked to that show, from the database `hbtn_0d_tvshows`. The database name will be passed as an argument of the `mysql` command|
 
