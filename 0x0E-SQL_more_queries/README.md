@@ -10,6 +10,9 @@
 * What are subqueries
 * What are JOIN and UNION
 
+## Precaution:
+Make a chronological follow up of the tasks to get a proper learning experience  😊
+
 |File				|Description						|
 |-----------------------|-----------------------------------------------|
 |0-privileges.sql		| a script that lists all privileges of the MySQL users `user_0d_1` and `user_0d_2` on your server (in `localhost`) |
@@ -29,4 +32,7 @@
 |14-my_genres.sql		|a script that uses the `hbtn_0d_tvshows` database to lists all genres of the show `Dexter`. The database name will be passed as an argument of the `mysql` command	|
 |15-comedy_only.sql	|a script that lists all Comedy shows in the database `hbtn_0d_tvshows`. The database name will be passed as an argument of the `mysql` command	|
 |16-shows_by_genre.sql	|a script that lists all shows, and all genres linked to that show, from the database `hbtn_0d_tvshows`. The database name will be passed as an argument of the `mysql` command|
-
+|100-not_my_genres.sql	|a script that uses the `hbtn_0d_tvshows` database to list all genres `not` linked to the show `Dexter`. The database name will be passed as an argument of the `mysql` command|
+|101-not_a_comedy.sql	|a script that lists all shows without the genre `Comedy` in the database `hbtn_0d_tvshows`. The database name will be passed as an argument of the `mysql` command|
+|102-rating_shows.sql	|a script that lists all shows from `hbtn_0d_tvshows_rate` by their rating. The database name will be passed as an argument of the `mysql` command ie `cat 102-rating_shows.sql \| mysql -hlocalhost -uroot -p hbtn_0d_tvshows_rate`	|
+|103-rating_genres.sql	|a script that lists all genres in the database `hbtn_0d_tvshows_rate` by their rating. The database name will be passed as an argument of the `mysql` command	|
