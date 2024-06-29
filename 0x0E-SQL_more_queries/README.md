@@ -22,5 +22,7 @@
 |7-cities.sql		|a script that creates the database `hbtn_0d_usa` and the table `cities` (in the database `hbtn_0d_usa`) on your MySQL server|
 |8-cities_of_california_subquery.sql|a script that lists all the cities of California that can be found in the database `hbtn_0d_usa` |
 |9-cities_by_state_join.sql|a script that lists all cities contained in the database `hbtn_0d_usa` |
-|10-genre_id_by_show.sql|a script that lists all shows contained in `hbtn_0d_tvshows` that have at least one genre linked	|
+|10-genre_id_by_show.sql|a script that lists all shows contained in `hbtn_0d_tvshows` that have at least one genre linked. The database name will be passed as an argument of the `mysql` command ie `cat 10-genre_id_by_show.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows`	|
+|11-genre_id_all_shows.sql|a script that lists all shows contained in the database `hbtn_0d_tvshows` including those with `NULL` in `tv_shows.title`. The database name will be passed as an argument of the `mysql` command|
+|12-no_genre.sql		|a script that lists all shows contained in `hbtn_0d_tvshows` without a genre linked. The database name will be passed as an argument of the `mysql` command. ie `cat 12-no_genre.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows` |
 
