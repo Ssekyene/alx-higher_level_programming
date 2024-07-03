@@ -4,6 +4,7 @@
 """
 lists all states from the database hbtn_0e_0_usa
  script should take 3 arguments: mysql username, mysql password and db name
+ Before you run the script execute: cat 0-select_states.sql | mysql -uroot -p
 """
 
 import MySQLdb
