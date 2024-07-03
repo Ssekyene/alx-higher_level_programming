@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Start link class to table in database 
+"""
+links State class to table in database
+Takes 3 arguments: username password db
 """
 import sys
 from model_state import Base, State
