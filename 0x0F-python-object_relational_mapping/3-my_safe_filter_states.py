@@ -2,9 +2,12 @@
 
 
 """
-safe from SQL injections
+safe from SQL injections eg ./2-my_filter_states.py root root hbtn_0e_0_usa "Arizona'; 
+TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '"
+
 script arg & displays all values in the states table where name matches the arg
 script takes 4 arguments: username, password, db name and state name searched
+Before you run the script execute: cat 0-select_states.sql | mysql -uroot -p
 """
 
 import MySQLdb
