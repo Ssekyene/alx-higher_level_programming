@@ -4,6 +4,8 @@
 """
 script takes name of state as arg & lists cities of state, db hbtn_0e_4_usa
 script takes 4 args: username, mysql, db name and state name
+Before you run the script, execute:
+cat 4-cities_by_state.sql | mysql -uroot -p
 """
 
 import MySQLdb
