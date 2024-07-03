@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 links State class to table in database
-Takes 3 arguments: username password db
+Takes 3 arguments: mysql username, mysql password, database name
 """
 import sys
 from model_state import Base, State
