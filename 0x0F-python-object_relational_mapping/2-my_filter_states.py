@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 """
 The script takes an arg & displays all values in the states table where name matches the arg
 script takes 4 arguments: username, password, db name and state name searched
