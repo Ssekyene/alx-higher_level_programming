@@ -2,8 +2,9 @@
 
 
 """
-script arg & displays all values in the states table where name matches the arg
+The script takes an arg & displays all values in the states table where name matches the arg
 script takes 4 arguments: username, password, db name and state name searched
+Before you run the script execute: cat 0-select_states.sql | mysql -uroot -p
 """
 
 import MySQLdb
