@@ -4,6 +4,8 @@
 """
 lists all cities from the database hbtn_0e_4_usa
 script takes 3 arguments: username, password, db name
+Before you run the script, execute:
+cat 4-cities_by_state.sql | mysql -uroot -p
 """
 
 import MySQLdb
