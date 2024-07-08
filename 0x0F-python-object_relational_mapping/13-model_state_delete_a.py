@@ -2,6 +2,8 @@
 """
 delete from table states with names containing letter 'a'
 parameters given to script: username, password, database
+Before you run the script, execute:
+cat 7-model_state_fetch_all.sql | mysql -uroot -p hbtn_0e_6_usa
 """
 
 from sys import argv
