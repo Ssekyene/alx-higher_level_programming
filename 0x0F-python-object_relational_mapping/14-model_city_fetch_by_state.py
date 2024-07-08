@@ -2,6 +2,8 @@
 """
 return all cities from database via python
 parameters given to script: username, password, database
+Before you run the script execute:
+cat 14-model_city_fetch_by_state.sql | mysql -uroot -p
 """
 
 from sys import argv
