@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
 prints the State object with name passed as argument from db hbtn_0e_6_usa
-script takes 4 args:username, password, db and state name to search
+script takes 4 args: username, password, db and state name to search
+Before you run the script, execute:
+cat 7-model_state_fetch_all.sql | mysql -uroot -p hbtn_0e_6_usa
 """
 
 from sys import argv
