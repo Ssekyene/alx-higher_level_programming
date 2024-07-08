@@ -2,6 +2,9 @@
 """
 create state "California" with city attribute "San Francisco"
 parameters given to script: username, password, database
+execute:
+cat 100-relationship_states_cities.sql | mysql -uroot -p
+before and after running the script
 """
 
 from sys import argv
