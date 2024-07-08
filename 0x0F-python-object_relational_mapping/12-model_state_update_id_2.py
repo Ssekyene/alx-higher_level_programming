@@ -2,6 +2,8 @@
 """
 script that changes the name of a State object from the database hbtn_0e_6_usa
 script should take 3 arguments: mysql username, mysql password and database
+Before you run the script, execute:
+cat 7-model_state_fetch_all.sql | mysql -uroot -p hbtn_0e_6_usa
 """
 
 from sys import argv
