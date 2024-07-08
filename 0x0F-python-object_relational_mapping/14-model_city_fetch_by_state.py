@@ -2,6 +2,8 @@
 """
 return all cities from database via python
 parameters given to script: username, password, database
+Before you run the script execute:
+cat 14-model_city_fetch_by_state.sql | mysql -uroot -p
 """
 
 from sys import argv
@@ -24,8 +26,9 @@ if __name__ == "__main__":
     session = Session()
 
     # query multiple tables in database and print info from tables
-    for q in session.query(State.name, City.id, City.name).filter(
-            State.id == City.state_id).order_by(City.id):
+    query = session.query(State.name, City.id, City.name).filter(
+            State.id == City.state_id).order_by(City.id)
+    for q in query:
         print("{:s}: ({:d}) {:s}".format(q[0], q[1], q[2]))
 
     session.close()
