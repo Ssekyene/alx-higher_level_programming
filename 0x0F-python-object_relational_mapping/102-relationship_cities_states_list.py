@@ -2,6 +2,8 @@
 """
 use table relationship to access and print city and state
 parameters given to script: username, password, database
+Before you run the script execute:
+cat 101-relationship_states_cities_list.sql | mysql -uroot -p
 """
 
 from sys import argv
