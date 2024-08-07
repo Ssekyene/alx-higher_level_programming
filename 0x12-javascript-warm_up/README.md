@@ -61,5 +61,5 @@ npm install semistandard --global
 ```
 
 ## Tips
-- For file [2-arguments.js](./2-arguments.js) refer to [process.argv](https://nodejs.org/api/process.html#process_process_argv)
+- Starting with file [2-arguments.js](./2-arguments.js) and so on you may refer to [process.argv](https://nodejs.org/api/process.html#process_process_argv)
 
