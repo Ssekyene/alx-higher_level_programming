@@ -60,3 +60,6 @@ This will ensure that you have Node.js 14 installed and set as the default versi
 npm install semistandard --global
 ```
 
+## Tips
+- For file [2-arguments.js](./2-arguments.js) refer to [process.argv](https://nodejs.org/api/process.html#process_process_argv)
+
