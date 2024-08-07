@@ -48,7 +48,11 @@ nvm alias default 14
 node -v
 npm -v
 ```
-This will ensure that you have Node.js 14 installed and set as the default version on your system using nvm.
+#### Step 3: Setup the interpreter shebang path
+```
+sudo ln -s $(which node) /usr/bin/node
+```
+This will ensure that you have Node.js 14 installed and set as the default version on your system using nvm. The last step is necessary since when using nvm, the node binary is not typically located there by default rather located at `/home/yourusername/.nvm/versions/node/v14.x.x/bin/node`.
 
 ### Install semi-standard
 [Documentation](https://github.com/standard/semistandard)
