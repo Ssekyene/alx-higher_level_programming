@@ -1,5 +1,5 @@
 #!/usr/bin/node
-
+// searches the second biggest integer in the list of arguments
 const _array = process.argv.slice(2);
 
 function secondToMax (_array) {

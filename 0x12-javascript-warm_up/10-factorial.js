@@ -1,5 +1,5 @@
 #!/usr/bin/node
-
+// computes and prints a factorial
 const i = parseInt(process.argv[2], 10);
 
 function factorial (i) {

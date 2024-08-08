@@ -62,4 +62,5 @@ npm install semistandard --global
 
 ## Tips
 - Starting with file [2-arguments.js](./2-arguments.js) and so on you may refer to [process.argv](https://nodejs.org/api/process.html#process_process_argv)
+- Starting with file [13-add.js](./13-add.js) you may refer to [Simple Intro to NodeJS Module Scope](http://51elliot.blogspot.com/2012/01/simple-intro-to-nodejs-module-scope.html)
 
