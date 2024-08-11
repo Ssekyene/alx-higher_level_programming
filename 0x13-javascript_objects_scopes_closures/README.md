@@ -58,4 +58,5 @@ npm install semistandard --global
 **Note:**
 
 - The folder [main_files](./main_files) contains test examples of the the modules each corresponding to a module with the same prefix number ie `4-main.js` corresponds to `4-rectangle.js`.
+- Make sure you take a chronological follow up of the files for a step by step learning experience
 
