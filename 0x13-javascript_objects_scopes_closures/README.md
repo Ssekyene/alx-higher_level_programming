@@ -57,6 +57,21 @@ npm install semistandard --global
 ```
 **Note:**
 
-- The folder [main_files](./main_files) contains test examples of the the modules each corresponding to a module with the same prefix number ie `4-main.js` corresponds to `4-rectangle.js`.
-- Make sure you take a chronological follow up of the files for a step by step learning experience
+- The folder [main_files](./main_files) contains test examples of the the modules from `0-` to `10-` each corresponding to a module with the same prefix number ie `4-main.js` corresponds to `4-rectangle.js`.
+- Make sure you take a chronological follow up of the files for a step by step learning experience :happy:
+- [100-data](./100-data) and [101-data](./101-data) are imported by the corresponding number prefixed files ie `num-file.js`.
+
+## References
+- [JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+- [Object-oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript) **(read all examples!)**
+- [Class - ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [super - ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
+- [extends - ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)
+- [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+- [Inheritance in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [this/self](https://alistapart.com/article/getoutbindingsituations/)
+- [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
+
+**HAPPY CODING :smiley:  DON'T STOP LEARNING...**
 
