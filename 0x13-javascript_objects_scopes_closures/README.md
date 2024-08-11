@@ -58,7 +58,7 @@ npm install semistandard --global
 **Note:**
 
 - The folder [main_files](./main_files) contains test examples of the the modules from `0-` to `10-` each corresponding to a module with the same prefix number ie `4-main.js` corresponds to `4-rectangle.js`.
-- Make sure you take a chronological follow up of the files for a step by step learning experience :happy:
+- Make sure you take a chronological follow up of the files for a step by step learning experience :blush:
 - [100-data](./100-data) and [101-data](./101-data) are imported by the corresponding number prefixed files ie `num-file.js`.
 
 ## References
