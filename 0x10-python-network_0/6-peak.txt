@@ -1,1 +1,2 @@
+Complexity of the algorithm in 6-peaky.py
 O(log(n))

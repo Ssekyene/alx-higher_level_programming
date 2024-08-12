@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Test function find_peak """
+""" Test function find_peak in 6-peaky.py"""
 find_peak = __import__('6-peak').find_peak
 
 print(find_peak([1, 2, 4, 6, 3]))
