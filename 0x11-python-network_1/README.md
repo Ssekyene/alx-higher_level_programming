@@ -34,4 +34,11 @@
 
 - Files with prefixes from 0- to 3- use the `urllib` package while the proceeding files use the `requests` package which is the simpler one.
 - The file [10-my_github.py](./10-my_github.py) uses [Basic Authentication](https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28)  with a [personal access token as password](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) to access to the github user information (only `read:user` permission is needed)
+- The file [recompile_python.sh](./recompile_python.sh) may be used to help in solving incompatibility issues of `requests` package with openssl.
+- **Be careful: only 60 requests by hour by IP for unauthenticated requests [Rate limit](https://docs.github.com/en/rest)** 
+
+## References
+- [HOWTO Fetch Internet Resources Using urllib Package](https://docs.python.org/3/howto/urllib2.html)
+- [Quickstart with Requests package](https://requests.readthedocs.io/en/latest/)
+- [Requests package](https://pypi.org/project/requests/)
 
