@@ -2,6 +2,8 @@
 """
 script that takes in a URL & email, sends a POST request to the passed URL
 with email as param & displays the body of response (decoded in utf-8)
+Example usage:
+./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
 """
 
 
