@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     response = get(URL)
     json = response.json()
-    
+
     for element in json:
         if i > 9:
             break
