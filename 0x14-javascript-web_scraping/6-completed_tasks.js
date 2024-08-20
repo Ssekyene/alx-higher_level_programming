@@ -12,7 +12,7 @@ request(address, function (error, response, body) {
     console.log(error);
   } else {
     const results = {};
-    const dataObj = JSON.parse(body)
+    const dataObj = JSON.parse(body);
     for (const td of dataObj) {
       if (td.completed) {
         if (results[td.userId] === undefined) { results[td.userId] = 0; }
