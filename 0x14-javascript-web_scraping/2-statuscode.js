@@ -2,6 +2,7 @@
 /*
   displays the status code of a GET request
   arg1: URL to request (GET)
+  Example usage: ./2-statuscode.js https://alx-intranet.hbtn.io/status
 */
 const request = require('request');
 const address = process.argv[2];
