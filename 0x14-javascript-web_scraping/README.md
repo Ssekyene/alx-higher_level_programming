@@ -63,3 +63,8 @@ export NODE_PATH=~/.nvm/versions/node/v14.21.3/lib/node_modules/
 
 Also you may consider using `~/.bashrc` file to do automatic set up of the `NODE_PATH` environment variable.
 
+## References
+- [Working with JSON data](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+- [request module](https://github.com/request/request)
+- [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
+
