@@ -1,14 +1,19 @@
-$(function () {
-  $('#add_item').click(function () {
-    $('ul.my_list').append('<li>Item</li>');
+/*
+adds, removes and clears LI elements from a list when the user clicks
+The script must work when it imported from the HEAD tag
+*/
+$(document).ready(function () {
+  $('DIV#add_item').click(function () {
+    $('UL.my_list').append('<li>Item</li>');
   });
-  $('#remove_item').click(function () {
-    let items = $('ul.my_list li');
-    if (items.length > 0) {
-      items[items.length - 1].remove();
+  $('DIV#remove_item').click(function () {
+    const items = $('UL.my_list li');
+    const itemsLength = items.length;
+    if (itemsLength > 0) {
+      items[itemsLength - 1].remove();
     }
   });
-  $('#clear_list').click(function () {
-    $('ul.my_list').empty();
+  $('DIV#clear_list').click(function () {
+    $('UL.my_list').empty();
   });
 });

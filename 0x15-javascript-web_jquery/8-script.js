@@ -1,16 +1,19 @@
-$(document).ready(function() {
+/*
+fetches and lists the title for all movies by using this URL: https://swapi-api.alx-tools.com/api/films/?format=json
+*/
+$(document).ready(function () {
   $.ajax({
-    url: "https://swapi-api.alx-tools.com/api/films/?format=json",
-    method: "GET",
-    success: function(data) {
+    url: 'https://swapi-api.alx-tools.com/api/films/?format=json',
+    method: 'GET',
+    success: function (data) {
       const movies = data.results;
-      const movieList = $("#list_movies");
+      const movieList = $('UL#list_movies');
 
-      movies.forEach(function(movie) {
+      movies.forEach(function (movie) {
         const title = movie.title;
-        const listItem = $("<li></li>").text(title);
+        const listItem = $('<li></li>').text(title);
         movieList.append(listItem);
       });
-    },
+    }
   });
 });
